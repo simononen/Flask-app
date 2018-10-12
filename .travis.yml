@@ -11,7 +11,7 @@ install:
   - pip install -r requirements.txt
 
 # command to run tests
-script: hello-world
+script: python3 hello-world.py
 
 # command to set up services
 services: postgresql
